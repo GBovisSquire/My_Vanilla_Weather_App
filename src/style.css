@@ -1,6 +1,9 @@
 body {
-  background: wheat;
+  background: rgb(234, 240, 249);
   font-family: "Raleway", sans-serif;
+}
+a {
+  color: rgb(68, 106, 164);
 }
 .container {
   background-color: white;
@@ -9,4 +12,28 @@ body {
   border-radius: 10px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   padding: 30px;
+}
+.search-form-input {
+  background-color: rgb(234, 240, 249);
+  border: none;
+  border-radius: 3px;
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+}
+.search-form-button {
+  background-color: rgb(68, 106, 164);
+  width: 15%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  margin-left: 3px;
+}
+footer {
+  border-top: 2px soild rgb(188, 211, 244);
+  padding: 30px 0 0 0;
+  font-size: 13px;
+  color: rgba 0, 0, 0, 0.6;
 }
