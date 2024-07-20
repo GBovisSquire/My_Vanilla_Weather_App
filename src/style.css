@@ -31,9 +31,40 @@ a {
   color: white;
   margin-left: 3px;
 }
+main {
+  padding: 30px 0;
+}
+.weather-app-data {
+  display: flex;
+  justify-content: space-around;
+}
+.weather-app-city {
+  margin: 0;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 300;
+}
+.weather-app-details {
+  font-size: 16px;
+  color: rgb(78, 84, 93, 0.6);
+  line-height: 20px;
+}
+.weather-app-details strong {
+  color: rgba(219, 72, 97, 0.777);
+}
+.temp-icon {
+  font-size: 40px;
+}
+.temp-value {
+  font-size: 68px;
+  font-weight: 200;
+}
+.temp-unit {
+  font-size: 30px;
+  font-weight: 200;
+}
 footer {
-  border-top: 2px soild rgb(188, 211, 244);
   padding: 30px 0 0 0;
   font-size: 13px;
-  color: rgba 0, 0, 0, 0.6;
+  text-align: center;
 }
