@@ -52,16 +52,23 @@ main {
 .weather-app-details strong {
   color: rgba(219, 72, 97, 0.777);
 }
+.temp-container {
+  display: flex;
+}
 .temp-icon {
-  font-size: 40px;
+  font-size: 50px;
+  font-weight: 200;
+  margin: 20px;
 }
 .temp-value {
   font-size: 68px;
   font-weight: 200;
+  margin: 0 0 0 0;
 }
 .temp-unit {
   font-size: 30px;
   font-weight: 200;
+  margin: 10px 0 0 0;
 }
 footer {
   padding: 30px 0 0 0;
