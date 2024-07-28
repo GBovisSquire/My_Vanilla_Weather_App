@@ -56,9 +56,8 @@ main {
   display: flex;
 }
 .temp-icon {
-  font-size: 50px;
-  font-weight: 200;
-  margin: 20px;
+  height: 88px;
+  width: 88px;
 }
 .temp-value {
   font-size: 68px;
